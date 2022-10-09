@@ -6,9 +6,10 @@ import './index.css';
 
 const theme = {
   colors: {
-    black: 'black',
-    white: 'white',
-    accent: 'tomato',
+    blue: 'blue',
+    purple: 'purple',
+    red: 'red',
+    emerald: '#50c878',
   },
 };
 

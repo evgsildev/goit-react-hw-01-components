@@ -1,5 +1,5 @@
 import { StatsList, StatsItem, Label, Quantity } from './Stats.styled';
-
+import PropTypes from 'prop-types';
 export const Stats = ({ followers, views, likes }) => {
   return (
     <StatsList>
@@ -19,4 +19,10 @@ export const Stats = ({ followers, views, likes }) => {
       </StatsItem>
     </StatsList>
   );
+};
+
+Stats.propTypes = {
+  followers: PropTypes.number,
+  views: PropTypes.number,
+  likes: PropTypes.number,
 };
